@@ -27,6 +27,10 @@
     background-clip: text;
 }
 
+#fullStack {
+    font: normal bold 20px/40px var(--roboto);
+}
+
 .header_area .main-menu .nav-item .nav-link {
     font: normal 500 15px/2px var(--roboto);
     text-transform: uppercase;
