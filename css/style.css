@@ -6,6 +6,10 @@
 
 @import url(./partials/_variables.css);
 
+/* import  global styling */
+
+@import url(./partials/_global.css);
+
 /* start navigation*/
 
 .header_area .main-menu .navbar .navbar-brand {
@@ -64,6 +68,19 @@
     display: inline-block;
     margin-left: 5%;
     transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+    font-size: 5rem;
+}
+
+.site-main .site-banner .banner-image>img {
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+.title-text {
+    font: normal bold 50px/72px var(--roboto);
 }
 
 
