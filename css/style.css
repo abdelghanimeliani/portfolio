@@ -2,20 +2,69 @@
 
 @import url(./fonts.css);
 
+/* import variables styling */
+
+@import url(./partials/_variables.css);
+
 /* start navigation*/
 
-.navbar-brand {
+.header_area .main-menu .navbar .navbar-brand {
     padding: 0 2rem 0 5rem;
 }
 
-.navbar {
-    padding: 1rem 15rem;
+.header_area .main-menu .navbar {
+    padding: 1rem 10rem;
 }
 
-.nav-link {
-    font-family: "Roboto", cursive;
-    text-transform: uppercase;
-    font-weight: 500;
-    padding: 1.7rem;
-    color: black;
+#melianiAbdelghani {
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
+
+.header_area .main-menu .nav-item .nav-link {
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a {
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+/*banner area*/
+
+.site-main .site-banner {
+    background: url(../img/banner/home-banner.png) no-repeat 0% 50%;
+}
+
+.site-main .site-banner .site-title h3 {
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after {
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+
+/*end banner area*/
