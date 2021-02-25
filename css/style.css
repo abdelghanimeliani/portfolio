@@ -89,3 +89,25 @@
 
 
 /*end banner area*/
+
+
+/* start about area*/
+
+.site-main .about-area {
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title h2>span {
+    /*block=1 fo9 wahed*/
+    display: block;
+    font: normal bold 49px/ 60px var(--roboto);
+    /*entre les caracteres*/
+    letter-spacing: 21px;
+}
+
+.site-main .about-area .about-title .paragraph>p {
+    padding: .4rem 0;
+}
+
+
+/*end about area*/
